@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     x:Name="titulo"
     mc:Ignorable="d">
@@ -19,7 +20,7 @@
         </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="Buscar" IconImageSource="Search">
+    <ContentPage Title="Buscar" IconImageSource="search">
         <StackLayout>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -41,7 +42,7 @@
         </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="Ubicacion" IconImageSource="Marker">
+    <ContentPage Title="Ubicacion" IconImageSource="marker">
         <StackLayout>
             <Grid>
                 <Grid.ColumnDefinitions>
