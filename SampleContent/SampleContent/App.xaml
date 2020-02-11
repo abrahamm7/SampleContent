@@ -16,8 +16,10 @@
             <Style x:Key="ButtonStyle" TargetType="Button">
                 <Setter Property="CornerRadius" Value="25" />
                 <Setter Property="BackgroundColor" Value="Transparent" />
-                <Setter Property="BorderColor" Value="Transparent" />
+                <Setter Property="BorderColor" Value="Black" />
                 <Setter Property="TextColor" Value="#000000" />
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="Visual" Value="Material" />
             </Style>
             <Style x:Key="FrameStyle" TargetType="Frame">
                 <Setter Property="BorderColor" Value="#FFFFFF" />

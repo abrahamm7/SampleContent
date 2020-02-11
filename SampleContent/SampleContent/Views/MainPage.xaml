@@ -51,7 +51,6 @@
                     <Button
                         x:Name="LoginBtn"
                         Clicked="LoginBtn_Clicked"
-                        ImageSource="Done.png"
                         Style="{StaticResource ButtonStyle}"
                         Text="Log in" />
                 </Frame>
@@ -61,7 +60,7 @@
                     Text="Login With" />
             </StackLayout>
             <StackLayout
-                Grid.Row="3"
+                Grid.Row="4"
                 Grid.ColumnSpan="2"
                 HorizontalOptions="CenterAndExpand"
                 Orientation="Horizontal">
