@@ -10,11 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace SampleContent.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ContentMenu : ContentPage
+    public partial class ContentMenu : TabbedPage
     {
-        public ContentMenu()
+        public ContentMenu(string name)
         {
             InitializeComponent();
+            titulo.Title = $"Bienvenido {name}";          
         }
     }
 }

@@ -32,7 +32,7 @@ namespace SampleContent
             }
             else
             {
-                await Navigation.PushAsync(new ContentMenu());
+                await Navigation.PushAsync(new ContentMenu(EntUserName.Text));
             }
         }
     }
