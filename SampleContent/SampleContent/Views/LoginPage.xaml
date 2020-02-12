@@ -35,7 +35,7 @@
                 <StackLayout
                     Grid.Row="1"
                     Grid.ColumnSpan="2"
-                    Padding="40">
+                    Padding="20">
                     <Entry x:Name="EntUserName" Placeholder="Username or email address" />
                     <Entry
                         x:Name="EntPass"
@@ -45,9 +45,8 @@
                 <StackLayout
                     Grid.Row="2"
                     Grid.ColumnSpan="2"
-                    Padding="35"
-                    HorizontalOptions="FillAndExpand"
-                    Spacing="60">
+                    Padding="15"
+                    HorizontalOptions="FillAndExpand">
                     <Frame Style="{StaticResource FrameButtonStyle}">
                         <Button
                             x:Name="LoginBtn"
@@ -61,7 +60,7 @@
                         Text="Login With" />
                 </StackLayout>
                 <StackLayout
-                    Grid.Row="4"
+                    Grid.Row="3"
                     Grid.ColumnSpan="2"
                     HorizontalOptions="CenterAndExpand"
                     Orientation="Horizontal">
