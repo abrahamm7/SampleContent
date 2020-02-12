@@ -1,21 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage
-    x:Class="SampleContent.Views.ContentMenu"
+<ContentPage
+    x:Class="SampleContent.Views.FoodPages"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:TabbedPages="clr-namespace:SampleContent.Views;assembly=SampleContent"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:visualElement="clr-namespace:SampleContent.Views;assembly=SampleContent"
     mc:Ignorable="d">
-
-
-    <TabbedPage.Children>
-
-        <TabbedPages:SearchPage Title="Perfil" IconImageSource="customer" />
-        <TabbedPages:UbicacionPage Title="Ubicacion" IconImageSource="marker" />
-        <TabbedPages:FoodPages Title="Buscar" IconImageSource="search" />
-
-        <!--<ScrollView>
+    <ContentPage.Content>
+        <ScrollView>
             <StackLayout>
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -120,67 +113,11 @@
                         Grid.ColumnSpan="2"
                         Padding="20"
                         HorizontalOptions="CenterAndExpand">
-                        <viewElement:ContentViewElement />
+                        <visualElement:ContentViewElement />
                     </StackLayout>
 
                 </Grid>
             </StackLayout>
-        </ScrollView>-->
-    </TabbedPage.Children>
-
-    <!--<ContentPage Title="Perfil" IconImageSource="customer">
-        <ScrollView>
-            <StackLayout>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-
-                    </Grid.ColumnDefinitions>
-
-                    <ListView
-                        Grid.Row="0"
-                        Grid.Column="0"
-                        Grid.ColumnSpan="2">
-                        <ListView.ItemsSource>
-                            <x:Array Type="{x:Type x:String}">
-                                <x:String>Hamburger</x:String>
-                                <x:String>Tacos</x:String>
-                                <x:String>Pollo</x:String>
-                                <x:String>Refresco</x:String>
-                                <x:String>Arroz</x:String>
-                            </x:Array>
-                        </ListView.ItemsSource>
-                    </ListView>
-                </Grid>
-            </StackLayout>
         </ScrollView>
-
-    </ContentPage>-->
-
-    <!--<ContentPage Title="Ubicacion" IconImageSource="marker">
-    -->
-    <!--<ScrollView>
-            <StackLayout>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <ListView Grid.Column="0" Grid.ColumnSpan="2">
-                        <ListView.ItemsSource>
-                            <x:Array Type="{x:Type x:String}">
-                                <x:String>Santo Domingo</x:String>
-                                <x:String>San Juan</x:String>
-                                <x:String>Samana</x:String>
-                                <x:String>Puerto Plata</x:String>
-                                <x:String>Dajabon</x:String>
-                            </x:Array>
-                        </ListView.ItemsSource>
-                    </ListView>
-                </Grid>
-            </StackLayout>
-        </ScrollView>-->
-    <!--
-    </ContentPage>-->
-</TabbedPage>
+    </ContentPage.Content>
+</ContentPage>
