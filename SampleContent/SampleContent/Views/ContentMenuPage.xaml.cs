@@ -15,7 +15,7 @@ namespace SampleContent.Views
         public ContentMenu(string name)
         {
             InitializeComponent();
-            titulo.Title = $"Bienvenido {name}";          
+            TitlePage.Title = $"Bienvenido {name}";          
         }
     }
 }
