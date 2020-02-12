@@ -84,10 +84,15 @@
                         <Label Style="{StaticResource ColorText}" Text="Mercado" />
                     </StackLayout>
                 </Frame>
-                <viewElement:ContentViewElement
-                    Grid.Row="4"
+                <StackLayout
+                    Grid.Row="3"
                     Grid.Column="0"
-                    Grid.ColumnSpan="2" />
+                    Grid.ColumnSpan="2"
+                    Padding="20"
+                    HorizontalOptions="CenterAndExpand">
+                    <viewElement:ContentViewElement />
+                </StackLayout>
+
             </Grid>
         </StackLayout>
     </ContentPage>
