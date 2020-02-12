@@ -8,8 +8,16 @@
     xmlns:viewElement="clr-namespace:SampleContent.Views;assembly=SampleContent"
     mc:Ignorable="d">
     <ContentView.Content>
-        <StackLayout>
-            <Label Text="Hello Xamarin.Forms!" />
-        </StackLayout>
+        <Frame Style="{StaticResource FrameButtonStyle}">
+            <StackLayout
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Vertical"
+                VerticalOptions="CenterAndExpand">
+                <Button
+                    ImageSource="shopping"
+                    Style="{StaticResource ButtonStyle2}"
+                    Text="Comprar" />
+            </StackLayout>
+        </Frame>
     </ContentView.Content>
 </ContentView>

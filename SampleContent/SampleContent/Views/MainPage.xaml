@@ -47,7 +47,7 @@
                 Padding="35"
                 HorizontalOptions="FillAndExpand"
                 Spacing="60">
-                <Frame Style="{StaticResource FrameStyle}">
+                <Frame Style="{StaticResource FrameButtonStyle}">
                     <Button
                         x:Name="LoginBtn"
                         Clicked="LoginBtn_Clicked"
