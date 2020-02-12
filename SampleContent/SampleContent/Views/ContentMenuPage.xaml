@@ -19,7 +19,10 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Frame Style="{StaticResource FrameStyle}">
+                    <Frame x:Name="FrameOne" Style="{StaticResource FrameStyle}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Frame1" Tapped="Frame1_Tapped" />
+                        </Frame.GestureRecognizers>
                         <StackLayout
                             HorizontalOptions="CenterAndExpand"
                             Orientation="Vertical"
@@ -28,7 +31,13 @@
                             <Label Style="{StaticResource ColorText}" Text="Comida Rapida" />
                         </StackLayout>
                     </Frame>
-                    <Frame Grid.Column="1" Style="{StaticResource FrameStyle}">
+                    <Frame
+                        x:Name="FrameTwo"
+                        Grid.Column="1"
+                        Style="{StaticResource FrameStyle}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Frame2" Tapped="Frame2_Tapped" />
+                        </Frame.GestureRecognizers>
                         <StackLayout
                             HorizontalOptions="CenterAndExpand"
                             Orientation="Vertical"
@@ -38,9 +47,13 @@
                         </StackLayout>
                     </Frame>
                     <Frame
+                        x:Name="FrameThree"
                         Grid.Row="1"
                         Grid.Column="0"
                         Style="{StaticResource FrameStyle}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Frame3" Tapped="Frame3_Tapped" />
+                        </Frame.GestureRecognizers>
                         <StackLayout
                             HorizontalOptions="CenterAndExpand"
                             Orientation="Vertical"
@@ -50,9 +63,13 @@
                         </StackLayout>
                     </Frame>
                     <Frame
+                        x:Name="FrameFourth"
                         Grid.Row="1"
                         Grid.Column="1"
                         Style="{StaticResource FrameStyle}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Frame4" Tapped="Frame4_Tapped" />
+                        </Frame.GestureRecognizers>
                         <StackLayout
                             HorizontalOptions="CenterAndExpand"
                             Orientation="Vertical"
@@ -62,9 +79,13 @@
                         </StackLayout>
                     </Frame>
                     <Frame
+                        x:Name="FrameFive"
                         Grid.Row="2"
                         Grid.Column="0"
                         Style="{StaticResource FrameStyle}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Frame5" Tapped="Frame5_Tapped" />
+                        </Frame.GestureRecognizers>
                         <StackLayout
                             HorizontalOptions="CenterAndExpand"
                             Orientation="Vertical"
@@ -74,9 +95,13 @@
                         </StackLayout>
                     </Frame>
                     <Frame
+                        x:Name="FrameSix"
                         Grid.Row="2"
                         Grid.Column="1"
                         Style="{StaticResource FrameStyle}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Frame6" Tapped="Frame6_Tapped" />
+                        </Frame.GestureRecognizers>
                         <StackLayout
                             HorizontalOptions="CenterAndExpand"
                             Orientation="Vertical"
